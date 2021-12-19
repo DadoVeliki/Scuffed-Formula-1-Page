@@ -1,0 +1,384 @@
+.tablica{
+    background-color:red;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: xx-large;
+}
+.redakStupac{
+    text-align: center;
+    color:black;
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.prvi{
+    background-color: yellow;
+    text-align: center;
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+.pored{
+    display: inline;
+	padding: 30px;
+    
+}
+.poredak{
+    text-align: center;
+    background-color:darkblue;
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+}
+.header{
+    width:100%;
+    position:fixed;
+    background-color: rgb(255, 0, 0);
+    color:white;
+    top: 0;
+    left:0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    width:80%;
+    margin:auto;
+}
+.footer{
+    width:100%;
+    position:fixed;
+    background-color: rgb(255, 0, 0);
+    color:white;
+    bottom: 0;
+    left:0;
+    font-family:'Courier New', Courier, monospace;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+    padding: 16px;
+}
+body{
+    background-image: url('fone.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.obrazac {
+    background-color: yellow;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+.podnaslov{
+    color:red;
+    text-shadow: 6px 6px 6px #000000;       
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    letter-spacing: 0.5em;
+    font-size: xx-large;
+}
+a:link{
+    background-color: #000000;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:visited{
+    color:white;
+    background-color: black;
+    text-decoration: line-through;
+}
+a:hover{
+    color:yellow;
+    background-color: rgb(255, 123, 0);
+    text-decoration:solid;
+}
+a:active{
+    color:blue;
+    font-weight: bold;
+    background-color: green;
+}
+.odlomak{
+    background-color: aqua;
+    color:blue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.naslov{
+    text-align: center;
+    background-color: aqua;
+    color:green;
+    font-size: xx-large;
+    width:425px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.pogledajte{
+    text-align: center;
+    color:lime;
+    background-color: darkblue;
+    width:500px;
+    border-style: solid;
+    border-color: lime;
+}
+.logo{
+    position: relative;
+    top: 13px;
+}
+.odlomak1{
+    text-align: justify;
+    background-color:lawngreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.podnaslov1, .podnaslov2, .podnaslov3{
+    color: mediumblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: lawngreen;
+    font-weight: 200;
+    font-size: xx-large;
+    width:130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.slika{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+.tekst{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:large;
+    background-color: red;
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    letter-spacing: 0.5em;
+    -webkit-text-stroke: 1px black;
+}
+.odabir{
+    text-align: center;
+    color:white;
+    background-color: aqua; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 300%;
+    
+}
+.tablica2, .tablica3{
+    background: url('p5.jpg');
+    margin-left: auto;
+    margin-right: auto;
+    color:lime;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 15px;
+    border:10px solid black;
+    border-color:red;
+    -webkit-text-stroke: 1.5px black;
+    font-size: x-large;
+    border-style: solid;
+}
+.tablica3{
+    background: url('p7.jpg');
+    border-color:darkblue;
+}
+.podnaslov2{
+    width: 200px;
+}
+.mercedes{
+    color:aqua;
+}
+.redbull{
+    color:blue;
+    -webkit-text-stroke: 0.5px white;
+}
+.mclaren{
+    color:orange;
+}
+.ferrari{
+    color:red;
+}
+.alphatauri{
+    color:darkblue;
+    -webkit-text-stroke: 0.5px white;
+}
+.williams{
+    color:darkcyan;
+}
+.astonmartin{
+    color:darkgreen;
+    -webkit-text-stroke: 0.5px white;
+}
+.alfa{
+    color:darkred;
+    -webkit-text-stroke: 0.5px white;
+}
+.haas{
+    color:white;
+}
+.podnaslov3{
+    width:300px;
+}
+a.one:link{
+    background-color:inherit;
+    color: inherit;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+.slika1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+.slika1:hover{
+    content: url('meme3.png');
+    height:325px;
+    width:600px;
+}
+.slika2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+.slika2:hover{
+    content: url('meme1.jpg');
+    height:300px;
+    width:600px;
+}
+.slika3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+.slika3:hover{
+    content: url('meme4.jpg');
+    height:300px;
+    width:600px;
+}
+.slika4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+.slika4:hover{
+    content: url('meme5.jpg');
+    height:300px;
+    width:600px;
+}
+.slika5{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+.slika5:hover{
+    content: url('meme2.jpg');
+    height:350px;
+    width:600px;
+}
+.slika6{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+.slika6:hover{
+    content: url('meme6.jpg');
+    height:325px;
+    width:600px;
+}
+.slika7{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+.slika7:hover{
+    content: url('meme7.jpg');
+    height:325px;
+    width:600px;
+}
+.slika8{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+.slika8:hover{
+    content: url('meme8.jpg');
+    height:325px;
+    width:600px;
+}
+.slika9{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+.slika9:hover{
+    content: url('meme9.jpg');
+    height:325px;
+    width:600px;
+}
+.slika10{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+.slika10:hover{
+    content: url('meme10.jpg');
+    height:325px;
+    width:600px;
+}
+.slika11{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+.slika11:hover{
+    content: url('toto.jpg');
+    height:150px;
+    width:380px;
+}
+a.two:link{
+    background-color:aqua;
+    color: inherit;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+.fiksno{
+    position: fixed;
+	bottom: 700px;
+	right: 10px;
+
+	width: 350px;
+	height: 25px;
+
+	text-align: center;
+	background-color: darkblue;
+    color:white;
+	font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.f1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}

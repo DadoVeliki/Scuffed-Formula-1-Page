@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    <head>
+        <title>F1 - Registracija</title>
+        <link rel="stylesheet" type="text/css" href="stilweb1.css" />
+    </head>
+    <body>
+        <div class="header">
+            <div class="container">
+                <ul>
+                    <li><img class="logo" src="logo.png" width="5%" height="5%"/></li>
+                    <li class="f1">FORMULA ONE</li>
+                    <li><a href="webpart1.html">Početna</a></li>
+                    <li><a href="obrazacwebpart1.html#prijava">Prijava</a></li>
+                    <li><a href="registracijawebpart1.html#registracija">Registracija</a></li>
+                    <li><a href="osport.html" >O Sportu</a></li>
+                </ul>
+               
+            </div>
+        </div>
+    </br></br></br></br>
+        <a name="registracija"></a>
+        <div class="obrazac">
+            <h2>REGISTRACIJA</h2>
+            <form action="B.php" method="get">
+                Ime <input type="text" name="ime" /> <br/>
+                Prezime <input type="text" name="prezime"/> <br/>
+                Datum rođenja <input type="date" name="datum"/> </br>
+                Spol:
+                <input type="radio" name="spol" value="m"/>Muško
+                <input type="radio" name="spol" value="z"/>Žensko
+                Zemlja 
+                <input list="drzave" name="drzava">
+                <datalist id="drzave">
+                    <option value="Hrvatska"></option>
+                    <option value="Slovenija"></option>
+                    <option value="Srbija"></option>
+                    <option value="Bosna i Hercegovina"></option>
+                    <option value="Crna Gora"></option>
+                    <option value="Kosovo" disabled></option>
+                    <option value="Albanija"></option>
+                    <option value="Sjeverna Makedonija"></option>
+                </datalist>
+                </br>
+                Email<input type="text" name="email" /></br>
+                Lozinka<input type="password" name="lozinka"/></br>
+            </br>
+                <input type="submit" name="Submit" value="Registriraj se"/>
+            </form>
+        </br>
+            <span>Već imate račun?</span>
+            <span><a href="obrazacwebpart1.html#prijava">Prijavi se.</a></span>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <h3>Web Development by David Trstenjak 2021</h3>
+            </div>
+        </div>
+    </body>
+</html>
